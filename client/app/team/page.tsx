@@ -17,6 +17,7 @@ function Team() {
       <ContactTeam />
     </section>
   );
+  
 }
 
 export default Team;

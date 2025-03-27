@@ -13,7 +13,8 @@ const ServicesDetails: React.FC = () => {
           <h2 className="h2">Services</h2>
         </div>
       </div>
-
+  
+  
       <div className="container mx-auto lg:px-20 px-4 my-20">
         <h2 className="text-3xl font-bold text-gray-800 mb-4 text-center">How Our Scanning Process Works</h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-12 text-center">
