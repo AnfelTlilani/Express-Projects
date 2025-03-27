@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react"; 
 import { faqs } from "../../components/constants";
-import ContactTeam from "@/components/Team/ContactTeam";
+import ContactTeam from "@/components/Team/contact-team";
 
 interface FaqItem {
   question: string;

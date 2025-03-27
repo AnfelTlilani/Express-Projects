@@ -1,5 +1,4 @@
 import Image from "next/image";
-<<<<<<< HEAD
 import React from "react";
 import { about } from "@/components/constants";
 import Link from "next/link";
@@ -7,13 +6,8 @@ import {machines} from "@/components/constants";
 import { motion } from "framer-motion";
 
 
-=======
-import Link from "next/link";
-import React from "react";
->>>>>>> b836dc806465c779d881e38ff25b9f6b7bb45b5c
 
-import { about } from "@/components/constants";
-import VideosWork from "@/components/Work/videos-work";
+
 
 function About() {
   return (
@@ -24,7 +18,6 @@ function About() {
         </div>
       </div>
 
-      {/* Introduction Section */}
       <div className="container mx-auto lg:px-20 px-4 my-20">
         <div className="flex justify-between gap-10 flex-wrap mb-10">
           <div className="lg:basis-[45%] basis-full">
@@ -47,7 +40,6 @@ function About() {
             </div>
 
             <div className="mt-20">
-<<<<<<< HEAD
               <h3 className="font-bold text-6xl my-4">Our Expert Radiologists</h3>
               <p className="text-gray-800 text-lg leading-relaxed">
               Our team of expert radiologists is dedicated to providing accurate and high-quality diagnostic imaging services. 
@@ -55,28 +47,7 @@ function About() {
               , innovation, and patient care, our radiologists work collaboratively to support better healthcare outcomes. </p>
               <Link href={"/team"} className="bg-black text-white block w-fit py-2 px-3 mt-5">
                 Meet Our Team
-=======
-              <Image
-                src="/assets/home_clinic3_pic5.png"
-                alt="about"
-                width={40}
-                height={40}
-              />
-              <h3 className="font-bold text-6xl my-4">
-                Curabitur ut egestas justo molestie
-              </h3>
-              <p className="text-gray-400 leading-relaxed">
-                Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis
-                nibh magna. Proin risus erat, fringilla vel purus sit amet,
-                mattis porta enim. Duis fermentum faucibus est, sed vehicula
-                velit sodales vitae.
-              </p>
-              <Link
-                href="/team"
-                className="bg-black text-white block w-fit py-2 px-3 mt-5"
-              >
-                Our Team
->>>>>>> b836dc806465c779d881e38ff25b9f6b7bb45b5c
+
               </Link>
             </div>
           </div>
@@ -84,29 +55,14 @@ function About() {
 
    <div className="lg:basis-[45%] basis-full">
             <Image
-<<<<<<< HEAD
               src={"/assets/h.JPG"}
               alt="medical imaging"
-=======
-              src="/assets/home_clinic3_pic16.jpg"
-              alt="doctor"
->>>>>>> b836dc806465c779d881e38ff25b9f6b7bb45b5c
+
               width={1000}
               height={1000}
               className="w-full rounded-lg shadow-md"
             />
-<<<<<<< HEAD
-=======
-            <div className="bg-primary px-8 py-10 w-1/2 text-center">
-              <h3 className="text-4xl font-bold py-3">Book online</h3>
-              <p className="text-xl">Fusce lobortis</p>
-              <Link
-                href="/book"
-                className="bg-black mx-auto text-white px-4 block w-fit py-3 mt-3 rounded-md"
-              >
-                Read more
-              </Link>
->>>>>>> b836dc806465c779d881e38ff25b9f6b7bb45b5c
+
             </div>
             </div>  
             <div className="flex justify-center items-center mt-16">
@@ -122,7 +78,6 @@ function About() {
   </div>
 </div>
 
-<<<<<<< HEAD
        <div className="my-20">
   <h3 className="text-4xl font-bold text-center mb-10 text-[#002D62]">
     Conditions & Technologies Used
@@ -165,17 +120,17 @@ function About() {
           { label: "Fast & Reliable", value: 92, description: "AI-powered analysis ensures quick and precise reports.", color: "#FF4500" },
           { label: "Comprehensive Care", value: 88, description: "Personalized assistance and patient-friendly procedures.", color: "#32CD32" }
         ].map(({ label, value, description, color }, index) => {
-          const radius = 35; // Circle radius
-          const strokeWidth = 6; // Circle stroke width
-          const circumference = 2 * Math.PI * radius; // Full circle circumference
-          const strokeDashoffset = circumference - (value / 100) * circumference; // Progress calculation
+          const radius = 35;
+          const strokeWidth = 6;
+          const circumference = 2 * Math.PI * radius; 
+          const strokeDashoffset = circumference - (value / 100) * circumference; 
 
           return (
             <div key={index} className="flex flex-col items-center text-center">
               <svg width="90" height="90">
-                {/* Background Circle */}
+
                 <circle cx="45" cy="45" r={radius} stroke="rgba(255,255,255,0.3)" strokeWidth={strokeWidth} fill="none"/>
-                {/* Progress Circle */}
+
                 <circle
                   cx="45" cy="45"
                   r={radius}
@@ -185,9 +140,8 @@ function About() {
                   strokeDasharray={circumference}
                   strokeDashoffset={strokeDashoffset}
                   strokeLinecap="round"
-                  transform="rotate(-90 45 45)" // Rotates the progress to start from the top
+                  transform="rotate(-90 45 45)"
                 />
-                {/* Percentage Text */}
                 <text x="50%" y="50%" textAnchor="middle" dy=".3em" fontSize="16px" fill={color} fontWeight="bold">
                   {value}%
                 </text>
@@ -235,6 +189,5 @@ function About() {
   );
 };
 
-=======
->>>>>>> b836dc806465c779d881e38ff25b9f6b7bb45b5c
+
 export default About;

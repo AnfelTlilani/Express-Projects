@@ -1,16 +1,10 @@
-<<<<<<< HEAD
 import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
 import { companyFooter, helpFooter } from '../constants';
-=======
-import Image from "next/image";
-import React from "react";
->>>>>>> b836dc806465c779d881e38ff25b9f6b7bb45b5c
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 import AllRights from "../all-rights";
-import { companyFooter, helpFooter } from "../constants";
 
 function Footer() {
   return (
@@ -54,20 +48,10 @@ function Footer() {
               <h4 className="text-2xl mb-5">Company</h4>
               <ul>
                 {companyFooter.map((comp, i) => (
-<<<<<<< HEAD
                   <li key={i} className="text-lg font-[300] text-gray-500">
                     <Link href={comp.link} className="flex items-center gap-2 hover:text-primary hover:translate-x-0.5 transition-all duration-300">
                       <MdOutlineArrowRightAlt className="text-sm" /> {comp.title}
                     </Link>
-=======
-                  <li
-                    key={i}
-                    className="flex items-center gap-2 text-lg font-[300] md:justify-normal justify-center hover:text-primary hover:translate-x-0.5 transition-all duration-300 cursor-pointer text-gray-500"
-                  >
-                    <MdOutlineArrowRightAlt className="text-sm" />
-                    {" "}
-                    {comp.title}
->>>>>>> b836dc806465c779d881e38ff25b9f6b7bb45b5c
                   </li>
                 ))}
               </ul>
@@ -77,20 +61,10 @@ function Footer() {
               <h4 className="text-2xl mb-5">Help</h4>
               <ul>
                 {helpFooter.map((help, i) => (
-<<<<<<< HEAD
                   <li key={i} className="text-lg font-[300] text-gray-500">
                     <Link href={help.link} className="flex items-center gap-2 hover:text-primary hover:translate-x-0.5 transition-all duration-300">
                       <MdOutlineArrowRightAlt className="text-sm" /> {help.title}
                     </Link>
-=======
-                  <li
-                    key={i}
-                    className="flex items-center gap-2 text-lg font-[300] md:justify-normal justify-center hover:text-primary hover:translate-x-0.5 transition-all duration-300 cursor-pointer text-gray-500"
-                  >
-                    <MdOutlineArrowRightAlt className="text-sm" />
-                    {" "}
-                    {help.title}
->>>>>>> b836dc806465c779d881e38ff25b9f6b7bb45b5c
                   </li>
                 ))}
               </ul>

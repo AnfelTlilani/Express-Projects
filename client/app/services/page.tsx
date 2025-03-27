@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const ServicesDetails: React.FC = () => {
   return (
     <section>
-]      <div className="pages">
+     <div className="pages">
         <div className="container mx-auto lg:px-20 px-4">
           <h2 className="h2">Services</h2>
         </div>

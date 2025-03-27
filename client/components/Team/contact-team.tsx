@@ -1,8 +1,5 @@
-<<<<<<< HEAD:client/components/Team/ContactTeam.tsx
 const ContactTeam = () => {
-=======
-function ContactTeam() {
->>>>>>> b836dc806465c779d881e38ff25b9f6b7bb45b5c:client/components/Team/contact-team.tsx
+
   return (
     <div className="bg-secondary py-20 md:py-32 px-4 my-28">
       <div className="sm:w-[600px] mx-auto text-center">
