@@ -1,7 +1,7 @@
 import ContactTeam from "@/components/Team/contact-team";
 import OurTeam from "@/components/Team/our-team";
 import Image from "next/image";
-
+import React from "react";
 function Team() {
   return (
     <section>
